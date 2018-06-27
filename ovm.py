@@ -7,7 +7,7 @@ import time
 # import urllib3
 # urllib3.disable_warnings(urllib3.exceptions.InsecurePlatformWarning)
 
-#######
+######
 
 # Initializing the session
 
@@ -16,13 +16,13 @@ s.auth = ('username','password')
 s.headers.update({'Accept': 'application/json', 'Content-Type': 'application/json'})
 baseUri = 'https://serveraddress:7002/ovm/core/wsapi/rest'
 
-#######
+######
 
 # Use this to skip SSL verification
 
 # s.verify = False
 
-#######
+######
 
 # Get ID From Name Function
 
